@@ -12,6 +12,9 @@ function Home() {
             <Link href="/product">
                 <a>product</a>
             </Link>
+            <Link href="/posts">
+                <a>Posts</a>
+            </Link>
         </div>
     )
 }
