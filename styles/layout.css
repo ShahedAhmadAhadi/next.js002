@@ -1,0 +1,14 @@
+.layout-header {
+    background-color: #265562;
+    color: #f32a16;
+    font-size: 30px;
+    text-align: center;
+    padding: 30px;
+}
+.layout-footer {
+    background-color: #265562;
+    color: #fe791a;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+}
