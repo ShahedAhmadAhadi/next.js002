@@ -1,7 +1,17 @@
 import Footer from "../components/Footer"
+import Head from 'next/head'
 
 function About() {
-    return <h1>About Page</h1>
+    return (
+        <div>
+            <Head>
+                <title>About Page</title>
+                <meta name="description" content="my About page" />
+            </Head>
+            <h1>About Page</h1>
+
+        </div>
+    )
 }
 
 export default About
