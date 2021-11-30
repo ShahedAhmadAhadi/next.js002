@@ -1,8 +1,11 @@
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
-
+import { useSession } from 'next-auth/client'
 
 function Home() {
+
+    const [session, loading] = useSession()
+
     return (
         <div className={styles.container}>
             <h1>Home</h1>
