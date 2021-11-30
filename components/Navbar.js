@@ -1,8 +1,8 @@
 import Link from 'next/link'
-import { signIn, signOut, useSession } from 'next-auth/client'
+// import { signIn, signOut, useSession } from 'next-auth/client'
 
 function Navbar() {
-  const [session, loading] = useSession()
+//   const [session, loading] = useSession()
   return (
     <nav className='header'>
       <h1 className='logo'>
