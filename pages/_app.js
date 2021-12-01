@@ -6,6 +6,10 @@ import '../styles/layout.css'
 import '../components/Navbar.css'
 import { Provider } from 'next-auth/client'
 
+export function reportWebVitals(metric) {
+  console.log(metric)
+}
+
 function MyApp({ Component, pageProps }) {
 
   if (Component.getLayout) {
